@@ -14,7 +14,7 @@ ENV JAVA_HOME /usr/local/jdk
 ENV PATH      $JAVA_HOME/bin:$PATH
 
 WORKDIR /usr/share/java
-COPY mysql-connector-java-5.1.38.jar .
+ADD https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar .
 RUN ln -s mysql-connector-java-5.1.38.jar mysql-connector-java.jar
 
 COPY krb5.conf /etc/
