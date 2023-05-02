@@ -2,7 +2,7 @@ version: "3"
 
 services:
   server:
-    image: wuzhenhua/ambari-server:1.0.0
+    image: wuzhenhua/ambari-server
     container_name: ambari-server.wuzhenhua.cn
     networks:
       - ambari-tier
@@ -13,7 +13,7 @@ services:
     hostname: ambari-server
     privileged: true
   agent1:
-    image: wuzhenhua/ambari-base:1.0.0
+    image: wuzhenhua/ambari-base
     container_name: agent1.wuzhenhua.cn
     networks:
       - ambari-tier
@@ -21,7 +21,7 @@ services:
     hostname: agent1
     privileged: true
   agent2:
-    image: wuzhenhua/ambari-base:1.0.0
+    image: wuzhenhua/ambari-base
     container_name: agent2.wuzhenhua.cn
     networks:
       - ambari-tier
