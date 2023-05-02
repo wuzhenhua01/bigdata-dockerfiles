@@ -1,6 +1,6 @@
 #VERSION_NUMBER=2.7.5.29-5
 [ambari-2.7.5.29]
-#json.url = http://public-repo-1.hortonworks.com/HDP/hdp_urlinfo.json
+#json.url = http://wuzhenhua.cn/HDP/hdp_urlinfo.json
 name=ambari Version - ambari-2.7.5.29
 baseurl=http://wuzhenhua.cn/ambari/centos7/2.x/updates/2.7.5.29
 gpgcheck=1
