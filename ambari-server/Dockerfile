@@ -14,12 +14,13 @@ RUN ambari-server setup \
   --databasename=ambari \
   --databaseusername=ambari \
   --databasepassword=ambari \
-  -s
+  -s \
+  -v
 
 RUN ambari-server install-mpack \
   --mpack=http://wuzhenhua.cn/HDF/centos7/3.x/updates/3.5.2.0/tars/hdf_ambari_mp/hdf-ambari-mpack-3.5.2.0-99.tar.gz \
   --purge \
-  -v
+  -s
 
 RUN systemctl enable ambari-server
 RUN mysql -hwuzhenhua.cn -uambari -pambari ambari </var/lib/ambari-server/resources/Ambari-DDL-MySQL-CREATE.sql
