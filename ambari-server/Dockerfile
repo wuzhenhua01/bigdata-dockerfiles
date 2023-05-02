@@ -19,4 +19,4 @@ RUN mysql -hwuzhenhua.cn -uambari -pambari ambari </var/lib/ambari-server/resour
 
 WORKDIR /var/log/ambari-server
 
-EXPOSE 3000 8080
+EXPOSE 8080
