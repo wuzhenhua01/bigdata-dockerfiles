@@ -5,6 +5,12 @@ LABEL version="1.0.0"
 LABEL description=""
 
 RUN yum install -y ambari-server mariadb --disablerepo=updates && yum clean all
+
+RUN ambari-server install-mpack \
+--mpack=http://wuzhenhua.cn/HDF/centos7/3.x/updates/3.5.2.0/tars/hdf_ambari_mp/hdf-ambari-mpack-3.5.2.0-99.tar.gz \
+--purge
+--verbose
+
 RUN ambari-server setup \
   -j /usr/local/jdk \
   --database=mysql \
