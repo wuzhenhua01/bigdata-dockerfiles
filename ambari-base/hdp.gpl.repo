@@ -1,8 +1,8 @@
-#VERSION_NUMBER=3.1.5.0-152
-[HDP-GPL-3.1.5.0]
-name=HDP-GPL Version - HDP-GPL-3.1.5.0
-baseurl=http://wuzhenhua.cn/HDP-GPL/centos7/3.x/updates/3.1.5.0
+#VERSION_NUMBER=3.1.5.6189-1
+[HDP-GPL-3.1.5.6189]
+name=HDP-GPL Version - HDP-GPL-3.1.5.6189
+baseurl=http://wuzhenhua.cn/HDP-GPL/centos7/3.x/updates/3.1.5.6189
 gpgcheck=1
-gpgkey=http://wuzhenhua.cn/HDP-GPL/centos7/3.x/updates/3.1.5.0/RPM-GPG-KEY/RPM-GPG-KEY-Jenkins
+gpgkey=http://wuzhenhua.cn/HDP-GPL/centos7/3.x/updates/3.1.5.6189/RPM-GPG-KEY/RPM-GPG-KEY-Jenkins
 enabled=1
 priority=1
