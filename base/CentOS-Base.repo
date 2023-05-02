@@ -12,20 +12,20 @@
 
 [base]
 name=CentOS-$releasever - Base
-baseurl=http://Mac-mini/centos/$releasever/os/$basearch/
+baseurl=http://wuzhenhua.cn/centos/$releasever/os/$basearch/
 gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
 
 #released updates
 [updates]
 name=CentOS-$releasever - Updates
-baseurl=http://Mac-mini/centos/$releasever/updates/$basearch/
+baseurl=http://wuzhenhua.cn/centos/$releasever/updates/$basearch/
 gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
 
 #additional packages that may be useful
 [extras]
 name=CentOS-$releasever - Extras
-baseurl=http://Mac-mini/centos/$releasever/extras/$basearch/
+baseurl=http://wuzhenhua.cn/centos/$releasever/extras/$basearch/
 gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
