@@ -1,4 +1,4 @@
-FROM  wuzhenhua/base
+FROM wuzhenhua/base
 
 LABEL maintainer="cx330.1000ly@gmail.com"
 LABEL version="1.0.0"
