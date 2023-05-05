@@ -7,3 +7,5 @@ LABEL description=""
 RUN /bin/echo "root" | passwd --stdin root
 RUN yum install -y openssh-server openssh-clients && yum clean all
 RUN systemctl enable sshd
+
+EXPOSE 22
